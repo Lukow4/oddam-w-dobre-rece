@@ -3,6 +3,7 @@ import './homeNavi.scss';
 
 const HomeNavi = () => {
     return (
+        <div className='container'>
         <nav>
             <ul>
                 <li>Start</li>
@@ -12,6 +13,7 @@ const HomeNavi = () => {
                 <li>Kontakt</li>
             </ul>
         </nav>
+        </div>
     );
 };
 

@@ -1,11 +1,15 @@
 import React from 'react';
+import HomeNavi from "./HomeNavi";
 
-const q = () => {
+const Register = () => {
     return (
+        <>
+        <HomeNavi/>
         <div>
            Rejestracja
         </div>
+        </>
     );
 };
 
-export default q;
+export default Register;
