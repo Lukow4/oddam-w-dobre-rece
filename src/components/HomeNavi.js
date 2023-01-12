@@ -1,10 +1,17 @@
 import React from 'react';
+import './homeNavi.scss';
 
 const HomeNavi = () => {
     return (
-        <div>
-            test nawigacji
-        </div>
+        <nav>
+            <ul>
+                <li>Start</li>
+                <li>O co chodzi?</li>
+                <li>O nas</li>
+                <li>Fundacja i organizacje</li>
+                <li>Kontakt</li>
+            </ul>
+        </nav>
     );
 };
 
