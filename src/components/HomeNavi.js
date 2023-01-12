@@ -5,7 +5,7 @@ const HomeNavi = () => {
     return (
         <div className='container'>
         <nav>
-            <ul>
+            <ul className='right'>
                 <li>Start</li>
                 <li>O co chodzi?</li>
                 <li>O nas</li>
