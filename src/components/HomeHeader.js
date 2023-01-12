@@ -8,8 +8,8 @@ const HomeHeader = () => {
             <div className='container'>
             <nav>
                 <ul className='right'>
-                    <li>Zaloguj</li>
-                    <li>Załóż konto</li>
+                    <li className='logIn'><a href="#">Zaloguj</a></li>
+                    <li className='signUp'><a href="Register">Załóż konto</a></li>
                 </ul>
             </nav>
 

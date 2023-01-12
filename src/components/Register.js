@@ -1,10 +1,11 @@
 import React from 'react';
 import HomeNavi from "./HomeNavi";
+import HomeHeader from "./HomeHeader";
 
 const Register = () => {
     return (
         <>
-        <HomeNavi/>
+            <HomeHeader/>
         <div>
            Rejestracja
         </div>

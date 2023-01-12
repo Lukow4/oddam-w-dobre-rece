@@ -6,11 +6,11 @@ const HomeNavi = () => {
         <div className='container'>
         <nav>
             <ul className='right'>
-                <li>Start</li>
-                <li>O co chodzi?</li>
-                <li>O nas</li>
-                <li>Fundacja i organizacje</li>
-                <li>Kontakt</li>
+                <li className='start'><a href="#">Start</a></li>
+                <li className='other'><a href="#">O co chodzi?</a></li>
+                <li className='other'><a href="#">O nas</a></li>
+                <li className='other'><a href="#">Fundacja i organizacje</a></li>
+                <li className='other'><a href="#">Kontakt</a></li>
             </ul>
         </nav>
         </div>

@@ -1,5 +1,5 @@
 nav {
-  justify-content: left; //nie działa - why?//
+  justify-content: left;
 }
 
 nav ul {
@@ -10,4 +10,13 @@ nav ul {
     margin-left: 20px;
     font-family: 'Open Sans';
   }
+}
+
+.start {
+  border: 1px solid black;
+  padding: 9px 20px;
+}
+
+.other {
+  padding: 9px 20px;
 }
