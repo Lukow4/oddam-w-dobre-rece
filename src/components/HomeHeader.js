@@ -12,7 +12,6 @@ const HomeHeader = () => {
                     <li className='signUp'><a href="Register">Załóż konto</a></li>
                 </ul>
             </nav>
-
             <HomeNavi/>
             </div>
             </>
