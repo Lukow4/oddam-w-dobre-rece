@@ -9,10 +9,10 @@ const HomeHeader = () => {
             <nav>
                 <ul className='right'>
                     <li className='logIn'>
-                        <Link to="/login" className="mainNavi">Zaloguj się</Link>
+                        <Link to="/login">Zaloguj się</Link>
                     </li>
                     <li className='signUp'>
-                        <Link to="/register" className="mainNavi">Załóż konto</Link>
+                        <Link to="/register">Załóż konto</Link>
                     </li>
                 </ul>
             </nav>
