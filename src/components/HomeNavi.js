@@ -19,9 +19,42 @@ const HomeNavi = () => {
                             Start
                         </ScrollLink>
                     </li>
-                    <li className='other'><a className='mainNavi' href="#">O co chodzi?</a></li>
-                    <li className='other'><a className='mainNavi' href="#">O nas</a></li>
-                    <li className='other'><a className='mainNavi' href="#">Fundacja i organizacje</a></li>
+                    <li className='mainNavi'>
+                        <ScrollLink
+                            activeClass="active"
+                            to="homeHeader"
+                            spy={true}
+                            smooth={true}
+                            offset={50}
+                            duration={500}
+                        >
+                            O co chodzi?
+                        </ScrollLink>
+                    </li>
+                    <li className='mainNavi'>
+                        <ScrollLink
+                            activeClass="active"
+                            to="homeHeader"
+                            spy={true}
+                            smooth={true}
+                            offset={50}
+                            duration={500}
+                        >
+                            O nas
+                        </ScrollLink>
+                    </li>
+                    <li className='mainNavi'>
+                        <ScrollLink
+                            activeClass="active"
+                            to="homeHeader"
+                            spy={true}
+                            smooth={true}
+                            offset={50}
+                            duration={500}
+                        >
+                            Fundacja i organizacje
+                        </ScrollLink>
+                    </li>
                     <li className='other'>
                         <ScrollLink
                             className="mainNavi"

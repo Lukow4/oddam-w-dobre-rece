@@ -2,7 +2,6 @@
 
 a {
   text-decoration: none;
-  font-size: 13px;
   text-align: center;
 }
 
@@ -12,9 +11,11 @@ a {
 
 .logIn {
   padding: 9px 10px;
+  font-size: 13px;
 }
 
 .signUp {
+  font-size: 13px;
   padding: 9px 10px;
   border: 1px solid $color3;
 }
