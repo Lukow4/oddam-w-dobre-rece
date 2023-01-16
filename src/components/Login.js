@@ -1,13 +1,13 @@
 import React from 'react';
+import '../scss/login.scss'
 import HomeHeader from "./HomeHeader";
-import '../scss/register.scss';
 
-const Register = () => {
+const Login = () => {
     return (
         <>
             <HomeHeader/>
-            <div className='register'>
-               <h2>Załóż konto</h2>
+            <div className='main-login'>
+                <h2>Zaloguj się</h2>
                 <div className='decoration'> </div>
                 <form>
                     <div className='form-fields'>
@@ -18,10 +18,6 @@ const Register = () => {
                         <div className='single-field'>
                             <label htmlFor="">Hasło</label>
                             <input type="password" name="Hasło"></input>
-                        </div>
-                        <div className='single-field'>
-                            <label htmlFor="">Powtórz hasło</label>
-                            <input type="password" name="Powtórz hasło"></input>
                         </div>
                         <div className='form-buttons'>
                         </div>
@@ -36,4 +32,4 @@ const Register = () => {
     );
 };
 
-export default Register;
+export default Login;

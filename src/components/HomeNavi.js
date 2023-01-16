@@ -1,5 +1,5 @@
 import React from 'react';
-import './homeNavi.scss';
+import '../scss/homeNavi.scss';
 import {Link as ScrollLink} from "react-scroll";
 
 const HomeNavi = () => {

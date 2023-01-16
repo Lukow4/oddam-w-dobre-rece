@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import HomeNavi from "./HomeNavi";
-import './homeHeader.scss';
+import '../scss/homeHeader.scss';
 
 const HomeHeader = () => {
     return (
