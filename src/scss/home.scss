@@ -1,0 +1,30 @@
+.hero-photo {
+  background-image: url("../assets/Home-Hero-Image.jpg");
+  width: 1000px;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+.top-block {
+  display: flex;
+}
+
+.hero-text {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2{
+    margin: 5px;
+    font-size: 38px;
+    font-weight: normal;
+  }
+}
+
+.bttns {
+  display: flex;
+}
