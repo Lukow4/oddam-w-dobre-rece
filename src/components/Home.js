@@ -21,6 +21,7 @@ const Home = () => {
                     <div className='bttns'>
                         <ScrollLink
                             activeClass="active"
+                            className="bttn"
                             to=""
                             spy={true}
                             smooth={true}
@@ -31,6 +32,7 @@ const Home = () => {
                         </ScrollLink>
                         <ScrollLink
                             activeClass="active"
+                            className="bttn"
                             to=""
                             spy={true}
                             smooth={true}
