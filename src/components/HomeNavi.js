@@ -1,6 +1,7 @@
 import React from 'react';
 import '../scss/homeNavi.scss';
 import {Link as ScrollLink} from "react-scroll";
+import { HashLink } from 'react-router-hash-link';
 
 const HomeNavi = () => {
     return (
@@ -8,16 +9,7 @@ const HomeNavi = () => {
             <nav>
                 <ul className='right'>
                     <li className='start'>
-                        <ScrollLink
-                            activeClass="active"
-                            to="homeHeader"
-                            spy={true}
-                            smooth={true}
-                            offset={50}
-                            duration={500}
-                        >
-                            Start
-                        </ScrollLink>
+                        <HashLink to="/#with-homeHeader">Link to Hash Fragment</HashLink>
                     </li>
                     <li className='mainNavi'>
                         <ScrollLink
@@ -32,16 +24,7 @@ const HomeNavi = () => {
                         </ScrollLink>
                     </li>
                     <li className='mainNavi'>
-                        <ScrollLink
-                            activeClass="active"
-                            to="homeHeader"
-                            spy={true}
-                            smooth={true}
-                            offset={50}
-                            duration={500}
-                        >
-                            O nas
-                        </ScrollLink>
+                        <HashLink to="/#with-contact">Link to Hash Fragment</HashLink>
                     </li>
                     <li className='mainNavi'>
                         <ScrollLink

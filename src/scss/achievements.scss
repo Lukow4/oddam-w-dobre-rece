@@ -1,0 +1,30 @@
+@import "../scss/colors";
+
+.three-cols {
+  background-image: url("../assets/ColumnsBackground.png");
+  display: flex;
+  height: 384px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px;
+  font-family: "Open Sans";
+  div.col {
+    width: 28%;
+    text-align: center;
+    padding: 10px 0;
+    h1 {
+      font-size: 90px;
+      font-weight: 300;
+      margin: 0;
+    }
+    span {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: normal;
+    }
+    p {
+      font-family: 'Merriweather';
+      margin-top: 10px;
+    }
+  }
+}
