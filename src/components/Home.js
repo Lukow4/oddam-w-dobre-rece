@@ -3,6 +3,7 @@ import HomeHeader from "./HomeHeader";
 import '../scss/home.scss';
 import {Link as ScrollLink} from "react-scroll";
 import Achievements from "./Achievements";
+import FourSteps from "./FourSteps";
 
 
 function Contact() {
@@ -47,6 +48,7 @@ const Home = () => {
                 </div>
         </section>
         <Achievements/>
+            <FourSteps/>
         </>
     );
 };
