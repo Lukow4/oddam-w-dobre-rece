@@ -9,7 +9,7 @@ const HomeNavi = () => {
             <nav>
                 <ul className='right'>
                     <li className='start'>
-                        <HashLink to="/#with-homeHeader">Link to Hash Fragment</HashLink>
+                        <HashLink to="/#with-homeHeader">Start</HashLink>
                     </li>
                     <li className='mainNavi'>
                         <ScrollLink
@@ -24,7 +24,7 @@ const HomeNavi = () => {
                         </ScrollLink>
                     </li>
                     <li className='mainNavi'>
-                        <HashLink to="/#with-contact">Link to Hash Fragment</HashLink>
+                        <HashLink to="/#with-contact">O nas</HashLink>
                     </li>
                     <li className='mainNavi'>
                         <ScrollLink
