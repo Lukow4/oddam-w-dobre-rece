@@ -6,6 +6,7 @@
   height: 40vw;
 }
 .about{
+  font-family: "Open Sans";
   display: flex;
   .left-side-container {
     @include about-half-container;
@@ -15,11 +16,11 @@
     justify-content: center;
     background-color: $color4;
     h2{
-      font-size: 1.7rem;
+      font-size: 38px;
       font-weight: normal;
     }
     p{
-      font-size: 1.2rem;
+      font-size: 30px;
       line-height: 2rem;
       width: 400px;
       text-align: center;

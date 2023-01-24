@@ -1,5 +1,6 @@
 import React from 'react';
 import '../scss/fourSteps.scss';
+import {Link} from "react-router-dom";
 
 const FourSteps = () => {
     return (
@@ -33,6 +34,9 @@ const FourSteps = () => {
                     <hr/>
                     <span>kurier przyjedzie<br/>w dogodnym terminie</span>
                 </div>
+            </div>
+            <div className='white-part'>
+                <Link className='white-bttn' to=''>ODDAJ<br/>RZECZY</Link>
             </div>
         </>
     );
