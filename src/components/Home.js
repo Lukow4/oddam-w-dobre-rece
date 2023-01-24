@@ -6,11 +6,9 @@ import Achievements from "./Achievements";
 import FourSteps from "./FourSteps";
 import AboutUs from "./AboutUs";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
 
-function Contact() {
-    return <div style={{marginTop: "1000px"}} id="contact">Kontakt</div>
-}
 
 const Home = () => {
     return (
@@ -53,6 +51,7 @@ const Home = () => {
             <FourSteps/>
             <AboutUs/>
 
+            <Contact/>
             <Footer/>
         </>
     );
