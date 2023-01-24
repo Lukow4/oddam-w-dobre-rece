@@ -5,6 +5,7 @@ import {Link as ScrollLink} from "react-scroll";
 import Achievements from "./Achievements";
 import FourSteps from "./FourSteps";
 import AboutUs from "./AboutUs";
+import Footer from "./Footer";
 
 
 function Contact() {
@@ -51,6 +52,8 @@ const Home = () => {
             <Achievements/>
             <FourSteps/>
             <AboutUs/>
+
+            <Footer/>
         </>
     );
 };
