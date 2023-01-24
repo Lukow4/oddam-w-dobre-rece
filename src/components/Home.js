@@ -9,7 +9,6 @@ import Footer from "./Footer";
 import Contact from "./Contact";
 
 
-
 const Home = () => {
     return (
         <>
