@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../scss/contact.scss';
 
 
-class HomeContact extends Component{
+class Contact extends Component{
     state={
         name:'',
         email:'',
@@ -48,11 +48,8 @@ class HomeContact extends Component{
         let email=this.state.email;
         let message=this.state.message;
         let correctMessage=true;
-
         let nameRegex=/^[a-zA-Z]{1,200}$/;
-
         let emailRegex= /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
         let messageRegex=/^.{120,1000}$/;
 
         console.log('Regex mail',emailRegex.test(email));
@@ -125,4 +122,4 @@ class HomeContact extends Component{
     }
 }
 
-export default HomeContact;
+export default Contact;

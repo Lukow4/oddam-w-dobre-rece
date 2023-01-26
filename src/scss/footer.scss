@@ -1,16 +1,16 @@
 @import "colors";
 
-footer{
+footer {
   display: flex;
   justify-content: space-between;
-  span{
+  span {
     color: $color5;
     padding: 7px;
   }
-  div.icons{
+  div.icons {
     margin-right: 30px;
 
-    button.icon{
+    button.icon {
       display: inline-block;
       width: 20px;
       height: 20px;
@@ -22,10 +22,10 @@ footer{
       margin-top: 10px;
       margin-left: 8px;
     }
-    button.facebookIcon{
+    button.facebookIcon {
       background-image: url("../assets/Facebook.svg");
     }
-    button.instagramIcon{
+    button.instagramIcon {
       background-image: url("../assets/Instagram.svg");
     }
   }
